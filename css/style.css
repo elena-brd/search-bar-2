@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f3f3f3;
+    color: #001219;
+    background: linear-gradient(#fdfdfd, #f4f4f4);
+}
+
+/* global */
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    color: #001219;
+    border: none;
+    background: transparent;
+    font-size: 1.1rem;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* search card */
+.search-card {
+    border: 2px solid #ebebeb;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 6px 5px rgba(172, 172, 172, 0.4);
+}
+
+/* form */
+#form-input {
+    display: flex;
+}
+
+#form-input input {
+    padding: 0.8rem;
+    width: 100%;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #ebebeb;
+}
+
+/* search icon */
+#search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    background: linear-gradient(#0096c7, #023e8a);
+    color: #fff;
+    padding: 0.8rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+#check-boxes div:first-child {
+    padding-top: 1rem;
+}
+
+#check-boxes input {
+    margin: 0.5rem 0;
+}
+
+.display-checkbox {
+    display: none;
+}
